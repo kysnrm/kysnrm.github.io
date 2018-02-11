@@ -1,12 +1,20 @@
 @import "./bootstrap/bootstrap.scss";
 
+html {
+  font-size: 14px;
+}
+
 html body{
   font-feature-settings: "palt";
-  line-height: 1.5;
+  line-height: 2;
+  color: #444;
+  background-color: #f4f4f4;
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: bicyclette, sans-serif;
+  color: #333;
+  letter-spacing: .1em;
 }
 
 h1 {
@@ -35,6 +43,7 @@ h2 {
   bottom: 0;
   right: 0;
   background-color: #ccc;
+  overflow: hidden;
 }
 .works-description {
   position: absolute;
@@ -43,12 +52,13 @@ h2 {
   height: 100%;
   width: 100%;
   padding: .5rem;
-  font-size: .8rem;
+  font-size: .9rem;
+  line-height: 1.5;
   opacity: 0;
   color: #fff;
   background-color: #000;
   transition: ease .3s;
   &:hover {
-    opacity: .7;
+    opacity: .8;
   }
 }
