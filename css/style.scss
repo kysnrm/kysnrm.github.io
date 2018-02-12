@@ -5,6 +5,7 @@ html {
 }
 
 html body{
+  font-family: '游ゴシック体', 'Yu Gothic', helvetica, arial, 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
   font-feature-settings: "palt";
   line-height: 2;
   color: #444;
@@ -59,5 +60,10 @@ h2 {
   transition: ease .3s;
   &:hover {
     opacity: .8;
+  }
+}
+@include media-breakpoint-down(sm){
+  .works-description {
+    display: none;
   }
 }
