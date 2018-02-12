@@ -12,6 +12,10 @@ html body{
   background-color: #f4f4f4;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 h1,h2,h3,h4,h5,h6 {
   font-family: bicyclette, sans-serif;
   color: #333;
@@ -67,4 +71,11 @@ h2 {
   .works-description {
     display: none;
   }
+}
+
+.sp-description {
+  margin-top: -1.5rem;
+  margin-bottom: 2rem;
+  color: #444;
+  line-height: 1.5;
 }
